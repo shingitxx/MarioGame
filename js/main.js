@@ -9,7 +9,7 @@ let con = can.getContext("2d"); //conの中にcan(2d)をいれる
 con.width = SCREEN_SIZE_W; //canの幅のサイズpx
 con.height = SCREEN_SIZE_H; //canの高さpx
 
-//フレームレート維持
+//フレームレート維持を
 let frameCount = 0; //描画処置の確認
 
 let chImg = new Image(); //Imageをnewで新しく作る オブジェクトを作成してchImgに代入
